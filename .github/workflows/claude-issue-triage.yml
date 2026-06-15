@@ -30,4 +30,6 @@ jobs:
             2. Publica un comentario en el issue con `gh issue comment ${{ github.event.issue.number }}` que contenga
                un diagnóstico general del problema: causa probable, los archivos/funciones de game.js relevantes
                según CLAUDE.md, y una propuesta breve del enfoque de solución (sin implementarla todavía).
+               El comentario debe estar escrito en formato Markdown válido para GitHub (encabezados, listas,
+               bloques de código con triple backtick y referencias a archivos con backticks).
           claude_args: '--allowed-tools "Bash(gh issue edit:*),Bash(gh issue comment:*),Bash(gh label create:*),Bash(gh label list:*)"'
