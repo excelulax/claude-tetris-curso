@@ -32,4 +32,4 @@ jobs:
                según CLAUDE.md, y una propuesta breve del enfoque de solución (sin implementarla todavía).
                El comentario debe estar escrito en formato Markdown válido para GitHub (encabezados, listas,
                bloques de código con triple backtick y referencias a archivos con backticks).
-          claude_args: '--allowed-tools "Bash(gh issue edit:*),Bash(gh issue comment:*),Bash(gh label create:*),Bash(gh label list:*)"'
+          claude_args: '--allowed-tools "Bash(gh issue view:*),Bash(gh issue edit:*),Bash(gh issue comment:*),Bash(gh label create:*),Bash(gh label list:*)"'
